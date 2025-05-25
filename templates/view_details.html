@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="col py-3">
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 student-card" >
+                            <div class="card-body">
+                                <h4 class="card-title">{{ Student.name }}</h4>
+                                <p class="card-text">
+                                   <strong>Student_ID:</strong> {{Student.student_id}}<br>
+                                   <strong>First Name:</strong> {{Student.first_name}}<br>
+                                   <strong>Last Name:</strong> {{Student.last_name}}<br>
+                                    <strong>Email:</strong> {{Student.email}}<br>
+                                    <strong>Birth Date:</strong> {{Student.date_of_Birth}}<br>
+                                    <strong>Address:</strong> {{Student.address}}<br>
+                                    <strong>Phone:</strong> {{Student.phone}}<br>
+                                </p> 
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

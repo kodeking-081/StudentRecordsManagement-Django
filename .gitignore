@@ -1,0 +1,57 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Django stuff
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+*.sqlite3
+*.sqlite
+*.bak
+
+# Media and static files (optional if generated)
+media/
+staticfiles/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment files
+.env
+.env.*
+
+# Migrations (optional, include if you want to regenerate)
+**/migrations/*.py
+**/migrations/*.pyc
+!*/migrations/__init__.py
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Pip dependency logs
+pip-log.txt
+
+# Coverage and testing
+htmlcov/
+coverage.xml
+.tox/
+.nox/
+.pytest_cache/
+nosetests.xml
+test.db
+
+# MyPy
+.mypy_cache/
+.dmypy.json
